@@ -20,6 +20,16 @@ This information can be obtained from good UX research and is crucial for the bu
 
 In case your users are located in faraway locations and do not have access to fast internet, then there should be a focus on performance, optimizations, and bundling choices.
 
+This could also determine how much effort the team would take for implementing and maintaining test (unit, user and end-to-end).
+
+### UI and UX Design
+
+> How is communcation between designers, product people and developers? Is the product mobile-first, mobile-only or is it primarily important for it to work well in desktops?
+
+Frontend developers implement interfaces, which are the deliverable from the design and product team. For that reason, it is important to coordinate well with them. At first glance, knowing the design requirements will mostly determine the framework and styling that the project will use.
+
+If the design has a lot of graphs, such as in a dashboard, it should be taken into consideration how you are going to build those, whether if it's by using an external library or building it up the team itself. Also, if it is a design system, them you might considerer defining a monorepo architecture from the start.
+
 ### Budget
 
 > Can you contract supporting APIs, libraries and technologies to enhance this project?
@@ -48,15 +58,18 @@ On a more technical side, communication between frontend and backend is importan
 
 These are the dimensions that will be covered in this guide. There will be different files, and the links will be here on the front page.
 
-- Software architecture
-- User experience and responsive design
-- Framework and supporting libraries
-- Build and bundling
-- Styling
-- Browser compatibility
-- Scalability, performance, and SEO
-- Accessibility
-- Automation
-- Server-side responsibilities
-- Error handling
-- Testing
+- [Software architecture](./Architecture.md)
+- [Framework and supporting libraries](./Framework.md)
+- [Build and bundling](./Build.md)
+- [Styling](./Styling.md)
+- [Browser compatibility](./Browser%20Compatibility.md)
+- [Scalability, performance, and SEO](./Performance.md)
+- [Accessibility](./Accessibility.md)
+- [Automation](./Automation.md)
+- [Server-side responsibilities](./Server-side.md)
+- [Error handling](./Error%20Handling.md)
+- [Testing](./Testing.md)
+
+## Scenarios
+
+Creating scenarios by setting up real-world considerations and requirements makes it easier to understand how the dimensions are chosen. Of course, there is no right or wrong choice, but each choice has its pros and cons that need to be analyzed.
